@@ -2395,7 +2395,7 @@
   content: "";
   position: absolute;
   z-index: -1;
-  left: 0;
+  left: 12px;
   right: 0;
   bottom: 0;
   background: #2098d1;

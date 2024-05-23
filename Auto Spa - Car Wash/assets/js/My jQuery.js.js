@@ -55,7 +55,12 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $("#nav-btn").click(function () {
-    $("#icn-box").css("margin-top", "20px");
+    $("#icn-box").css({
+      "margin-top": "20px",
+      "margin-bottom": "20px",
+      position: "relative",
+      left: "0",
+    });
     $(".nav-txt").css("color", "#A8B1B6");
     $(".nav-icn").css("color", "#A8B1B6");
     $("#navigation").toggleClass("navi");
