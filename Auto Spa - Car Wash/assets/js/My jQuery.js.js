@@ -1,59 +1,6 @@
 // HOME SEC START
 
 $(document).ready(function () {
-  $("#project-btn-2").click(function () {
-    $("#project-btn-2").css({ "background-color": "#4F9DDC", color: "white" });
-    $(
-      "#project-btn-1,#project-btn-3,#project-btn-4,#project-btn-5,#project-btn-6"
-    ).css({ "background-color": "transparent", color: "#bdb4b4" });
-  });
-
-  $("#project-btn-1").click(function () {
-    $("#project-btn-1").css({ "background-color": "#4F9DDC", color: "white" });
-    $(
-      "#project-btn-2,#project-btn-3,#project-btn-4,#project-btn-5,#project-btn-6"
-    ).css({ "background-color": "transparent", color: "#bdb4b4" });
-  });
-
-  $("#project-btn-3").click(function () {
-    $("#project-btn-3").css({ "background-color": "#4F9DDC", color: "white" });
-    $(
-      "#project-btn-1,#project-btn-2,#project-btn-4,#project-btn-5,#project-btn-6"
-    ).css({ "background-color": "transparent", color: "#bdb4b4" });
-
-    $("#project-btn-4").click(function () {
-      $("#project-btn-4").css({
-        "background-color": "#4F9DDC",
-        color: "white",
-      });
-      $(
-        "#project-btn-1,#project-btn-2,#project-btn-3,#project-btn-5,#project-btn-6"
-      ).css({ "background-color": "transparent", color: "#bdb4b4" });
-
-      $("#project-btn-5").click(function () {
-        $("#project-btn-5").css({
-          "background-color": "#4F9DDC",
-          color: "white",
-        });
-        $(
-          "#project-btn-1,#project-btn-2,#project-btn-3,#project-btn-4,#project-btn-6"
-        ).css({ "background-color": "transparent", color: "#bdb4b4" });
-      });
-
-      $("#project-btn-6").click(function () {
-        $("#project-btn-6").css({
-          "background-color": "#4F9DDC",
-          color: "white",
-        });
-        $(
-          "#project-btn-1,#project-btn-2,#project-btn-3,#project-btn-4,#project-btn-5"
-        ).css({ "background-color": "transparent", color: "#bdb4b4" });
-      });
-    });
-  });
-});
-
-$(document).ready(function () {
   $("#nav-btn").click(function () {
     $("#icn-box").css({
       "margin-top": "20px",
@@ -80,31 +27,6 @@ $(document).ready(function () {
 // CONTACT SEC END
 
 // SERVICE SEC START
-
-$(document).ready(function () {
-  $("#sm-car-btn").click(function () {
-    $("#sm-car-btn").css({ "background-color": "#4F9DDC", color: "white" });
-    $("#lg-car-btn,#md-car-btn").css({
-      "background-color": "transparent",
-      color: "#4F9DDC",
-    });
-  });
-
-  $("#md-car-btn").click(function () {
-    $("#md-car-btn").css({ "background-color": "#4F9DDC", color: "white" });
-    $("#sm-car-btn,#lg-car-btn").css({
-      "background-color": "transparent",
-      color: "#4F9DDC",
-    });
-  });
-  $("#lg-car-btn").click(function () {
-    $("#lg-car-btn").css({ "background-color": "#4F9DDC", color: "white" });
-    $("#md-car-btn,#sm-car-btn").css({
-      "background-color": "transparent",
-      color: "#4F9DDC",
-    });
-  });
-});
 
 $(document).ready(function () {
   $(window).scroll(function () {
