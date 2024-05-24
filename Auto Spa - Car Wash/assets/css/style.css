@@ -147,7 +147,7 @@
     color: #4f9ddc;
     font-weight: 400;
     background-color: transparent;
-    transition: 0.3s;
+    transition: all ease .4s;
     margin-left: 30px;
 }
 
@@ -203,7 +203,15 @@
     border-radius: 100%;
     margin-left: 30px;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 25px;
+}
+
+.background-attachment-fixed-sec-points {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    font-size: 16px;
 }
 
 .small-circles {
@@ -1259,7 +1267,7 @@
     font-weight: normal;
 }
 
-.writting-sec button {
+.writing-sec-btn {
     margin-top: 40px;
     padding: 8px 20px;
     border-radius: 100px;
@@ -1268,11 +1276,11 @@
     color: #4f9ddc;
     font-size: 0.9rem;
     font-weight: 400;
-    transition: 0.4s;
+    transition: all ease .4s;
     margin-bottom: 80px;
 }
 
-.writting-sec button:hover {
+.writing-sec-btn:hover {
     background-color: #4f9ddc;
     color: white;
 }
