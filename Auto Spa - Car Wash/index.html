@@ -65,11 +65,11 @@
 
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+      <button id="slider-btn" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+        class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button id="slider-btn" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
         aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+      <button id="slider-btn" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
         aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
@@ -116,9 +116,9 @@
       <p class="srvc-sub-hdng">Car wash and detailling service</p>
 
       <div class="row mt-3">
-        <div class="col-lg-4 col-md-4 col-sm-12 col-12 mt-4"><img src="assets/image/sample 1.jpg" data-aos="flip-right"
-            data-aos-duration="1000" height="450px" class="home-single-img"></div>
-        <div class="col-lg-8 col-md-8 col-sm-12 col-12 mt-4">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mt-4"><img src="assets/image/sample 1.jpg" data-aos="flip-right"
+            data-aos-duration="1000" class="home-single-img"></div>
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12 mt-4">
           <p class="home-frst-pera">Autospa Hand Wash is an eco-friendly, hand car wash and detailing service based in
             Portland. Our company was founded back in 2005 by a team of experts with more then 10 years of professional
             car wash experience. We operate three car washes throught Portland area. Our goal is to provide our
@@ -128,7 +128,7 @@
 
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-5">
-              <img src="assets/image/srvc-icons-imgs/icn-5.png">
+              <img src="assets/image/srvc-icons-imgs/icn-5.png" data-aos="flip-right" data-aos-duration="1000">
               <p class="features-hdng">THE BEST CAR WASH</p>
 
               <ul class="Theme-component-list">
@@ -141,7 +141,8 @@
 
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-5">
-              <img src="assets/image/srvc-icons-imgs/icn-1.png" style="margin-top: -12px;">
+              <img src="assets/image/srvc-icons-imgs/icn-1.png" data-aos="flip-right" data-aos-duration="1000"
+                style="margin-top: -12px;">
               <p class="features-hdng">THE BEST CAR WASH</p>
 
               <ul class="Theme-component-list">
@@ -174,34 +175,40 @@
       <p class="background-attachment-fixed-sec-sub-hdng mb-5">We know your time is valuable</p>
 
       <div class="row mt-5">
-        <div class="col-lg-2 col-md-12 col-sm-12 col-12">
+        <div class="col-lg-2 col-md-12 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="500">
           <div class="big-circles text-center"><img src="assets/image/bg-fixed-icn/icn-1.png" class="bg-fixed-icon">
           </div>
           <p class="background-attachment-fixed-sec-points">1. BOOKING</p>
         </div>
-        <div class="col-lg-1 col-md-12 col-sm-12 col-12">
+        <div class="col-lg-1 col-md-12 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="500"
+          data-aos-delay="100">
           <div class="small-circles text-center"><img src="assets/image/bg-fixed-icn/sm-icon-arrow.png"
               class="bg-fixed-small-icon"></div>
         </div>
-        <div class="col-lg-2 col-md-12 col-sm-12 col-12">
+        <div class="col-lg-2 col-md-12 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="500"
+          data-aos-delay="150">
           <div class="big-circles text-center"><img src="assets/image/bg-fixed-icn/icn-2.png" class="bg-fixed-icon">
           </div>
           <p class="background-attachment-fixed-sec-points">2. INSPECTION</p>
         </div>
-        <div class="col-lg-1 col-md-12 col-sm-12 col-12">
+        <div class="col-lg-1 col-md-12 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="500"
+          data-aos-delay="200">
           <div class="small-circles text-center"><img src="assets/image/bg-fixed-icn/sm-icon-arrow.png"
               class="bg-fixed-small-icon"></div>
         </div>
-        <div class="col-lg-2 col-md-12 col-sm-12 col-12">
+        <div class="col-lg-2 col-md-12 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="500"
+          data-aos-delay="250">
           <div class="big-circles text-center"><img src="assets/image/bg-fixed-icn/icn-3.png" class="bg-fixed-icon">
           </div>
           <p class="background-attachment-fixed-sec-points">3. VALUATION</p>
         </div>
-        <div class="col-lg-1 col-md-12 col-sm-12 col-12">
+        <div class="col-lg-1 col-md-12 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="500"
+          data-aos-delay="300">
           <div class="small-circles text-center"><img src="assets/image/bg-fixed-icn/sm-icon-arrow.png"
               class="bg-fixed-small-icon"></div>
         </div>
-        <div class="col-lg-2 col-md-12 col-sm-12 col-12 mb-5">
+        <div class="col-lg-2 col-md-12 col-sm-12 col-12 mb-5" data-aos="fade-up" data-aos-duration="500"
+          data-aos-delay="350">
           <div class="big-circles text-center"><img src="assets/image/bg-fixed-icn/icn-4.png" class="bg-fixed-icon">
           </div>
           <p class="background-attachment-fixed-sec-points">4. COMPLETION</p>
@@ -599,7 +606,7 @@
 
       <div class="container mb-5" style="display: flex; justify-content: center; align-items: center;">
         <div class="row">
-          <div class="col-12 col-md-12 col-sm-12 mb-5">
+          <div class="col-12 col-md-12 col-sm-12 mb-2">
             <span style="color: #888484; font-size: 14px;">By Rabiyan Rafiq © 2021</span><a href=""
               class="end-lnk ms-2">Auto Spa - Car Wash Auto Detail WordPress Theme
             </a>
